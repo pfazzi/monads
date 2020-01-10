@@ -1,0 +1,17 @@
+{
+  "name": "pfazzi/monads",
+  "description": "PHP Monads Library",
+  "keywords": ["monads"],
+  "require": {
+    "php": "^7.4",
+    "lambdish/phunctional": "^2.0",
+    "lstrojny/functional-php": "^1.11"
+  },
+  "autoload": {
+    "psr-4": { "Pfazzi\\Monads\\": "src" },
+    "files": ["src/functions.php"]
+  },
+  "require-dev": {
+    "vimeo/psalm": "dev-master"
+  }
+}
